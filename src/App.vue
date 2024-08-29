@@ -1,5 +1,5 @@
 <template>
-  <div class="container text-center">
+  <div class="container text-center mt-5">
     <HelloWord :sub-title="subTitle" :name="user.name" :age="user.age" />
     <input type="text" v-model="subTitle" /><br /><br />
     <input type="text" v-model="user.name" /><br /><br />
@@ -23,8 +23,14 @@ const user = reactive({
 
 
 <style scoped>
+.container {
+  background-color: rgb(214, 203, 185);
+}
 input {
   width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 </style>
