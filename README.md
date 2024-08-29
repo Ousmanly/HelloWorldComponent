@@ -1,29 +1,49 @@
-# projetvue
+# Gestion Bibliothéque App
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
 
-## Recommended IDE Setup
+Ce projet est une application simple développée en Vue.js, qui consiste en une interface utilisateur interactive permettant de saisir et afficher des informations personnelles telles que le nom, l'âge, et un sous-titre descriptif.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Prérequis
 
-## Customize configuration
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Node.js](https://nodejs.org/) (version 12 ou supérieure)
+- VueJS `npm create vite@latest`
+- Bootstrap `npm install bootstrap`
+- PopperJS `npm install @poperjs/core`
 
-## Project Setup
 
-```sh
-npm install
-```
+## Installation
 
-### Compile and Hot-Reload for Development
+Suivez ces étapes pour configurer le projet sur votre machine locale :
 
-```sh
+1. **Clonez le repository :**
+
+    ```bash
+    git clone https://github.com/Ousmanly/HelloWorldComponentVueJS.git
+    ```
+
+2. **Accédez au dossier du projet :**
+
+    ```bash
+    cd HelloWorldComponentVueJS 
+    ```
+
+3. **Installez les dépendances :**
+
+    ```bash
+    npm install
+    ```
+
+## Utilisation
+
+Pour démarrer l'application, exécutez la commande suivante :
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Authors
+ - [Ousmane Ibrahima Ly](https://github.com/Ousmanly)
+ - [Mariem Boudallaye Dianifaba](https://github.com/mariem2012)
