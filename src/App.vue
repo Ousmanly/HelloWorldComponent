@@ -5,6 +5,7 @@
     <input type="text" v-model="user.name" /><br /><br />
     <input type="text" v-model="user.age" />
     <div v-if="user.age > 15">Mon age</div>
+    <p>Une pragraphe</p>
   </div>
 </template>
 
