@@ -9,4 +9,5 @@
     const props = defineProps(["subTitle", "name", "age"])
 </script>
 <style>
+
 </style>
