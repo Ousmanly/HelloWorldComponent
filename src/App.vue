@@ -16,7 +16,7 @@ const subTitle = reactive(
 );
 const user = reactive({
   name: "Mariem",
-  age: 24,
+  age: 20,
 });
 </script>
 
