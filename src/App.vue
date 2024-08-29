@@ -1,10 +1,11 @@
 <template>
-  <div class="container text-center mt-5">
+  <div class="container text-center">
     <HelloWord :sub-title="subTitle" :name="user.name" :age="user.age" />
     <input type="text" v-model="subTitle" /><br /><br />
     <input type="text" v-model="user.name" /><br /><br />
     <input type="text" v-model="user.age" />
     <div v-if="user.age > 15">Mon age</div>
+    <p>Une pragraphe</p>
   </div>
 </template>
 
