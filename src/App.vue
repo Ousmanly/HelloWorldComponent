@@ -15,7 +15,7 @@ const subTitle = reactive(
   "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
 );
 const user = reactive({
-  name: "Ousmane",
+  name: "Mariem",
   age: 24,
 });
 </script>
